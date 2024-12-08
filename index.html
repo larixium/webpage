@@ -1,17 +1,68 @@
 <!DOCTYPE html>
+<!--🟥 Změňte vaši  webovou stránku GitHub-Pages podle následujících parametrů:
+👉 vaše webová stránka bude mít nejméně dvě, vzájemně linkem propojené, webové stránky
+👉 stránky budou ostylované pomocí CSS
+👉 na stránkách bude alespoň jeden odkaz na externí webové stránky
+
+zlepseni kvality
+👉 stránky budou reagovat na změnu velikosti displeje (půjdou zobrazit i na mobilu a tabletu)-->
+
 <html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Vítejte na stránce</h1>
-    <p> 
-        Na <a href="https://adventofcode.com/2024/day/3">této stránce</a> se dozvíte vše o tom, jak se stát programátorem.
-    </p>
-    <p>
-        <a href="druha.html"> Druha stranka</a>
-    </p>
+    <div id="header">
+        <h1>Dánsko </h1>
+        <img src="http://logobook.com/wp-content/uploads/2017/04/The_Royal_Theatre_denmark_logo.svg" width="5%" height="%" alt="The Royal Theatre Denmark Logo">
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Služby</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <div class="section">
+            <h2>O zemi</h2>
+            <p>Dánsko je malá severská země v severní Evropě, tvořící součást Skandinávie. 
+                Je známé vysokým životním standardem a patří mezi nejšťastnější země na světě.
+                Hlavním městem je Kodaň, moderní a kulturně bohaté město s ikonickým přístavem Nyhavn. 
+                Dánsko je konstituční monarchií, kde vládne král Frederik X. 
+                Země se skládá z více než 400 ostrovů, přičemž největší jsou Jutsko, Sjaelland a Fyn. 
+            </p>
+        </div>
+        <img id="landscape" src="https://img2.10bestmedia.com/Images/Photos/415064/GettyImages-1392694689_55_660x440.jpg">
+        <div class="section">
+            <p>
+                Dánská kuchyně zahrnuje tradiční pokrmy jako smørrebrød (obložený chléb) a vyniká moderní gastronomií s michelinskými restauracemi. Dánsko je také domovem legendární stavebnice LEGO, která vznikla ve městě Billund. 
+                Dánové jsou známí svým konceptem „hygge“, zaměřeným na útulnost a pohodu.
+                Země má bohatou historii sahající do dob Vikingů a hraje významnou roli v evropské kultuře.
+                Dánsko se rovněž pyšní krásnou přírodou, která zahrnuje pobřeží, pláže i malebné vesnice.
+            </p>
+        </div>
+
+    </div>
+
+    <div id="aside">
+        <h2>Důležité odkazy</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Denmark">Wikipedie</a></li>
+            <li><a href="https://denmark.dk/society-and-business/government-and-politics">Stránky státu</a></li>
+            <li><a href="druha.html">Poloha</a></li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <p>Kryštof Maxera © 2024</p>
+    </div>
+   
 </body>
 </html>
